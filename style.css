@@ -197,7 +197,83 @@ body{
     
 }
 /* banner right side (img) end */
-
-
 /* header section ends here */
 
+
+
+/* main section starts here */
+/* location area start */
+.location-area-container{
+    
+    width: 100%;
+    margin-top: 150px;
+    border-radius: 70px;
+    box-shadow: 10px 3px 15px 15px rgb(249, 249, 249);
+    margin-bottom: 100px;
+}
+
+.location-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.location-area-one{
+    width: 30%;
+    text-align: center;
+    padding: 10px 50px; 
+    border-right: 1px solid #B6B6B6;    
+    
+}
+
+
+.location-area-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+#location-headline{
+    font-size: 18px;
+}
+
+.location-paragraph{
+    font-weight: 400;
+    font-size: 13px;
+   
+
+}
+
+
+.location-area-two{
+    width: 30%;
+    text-align: center;
+    padding: 10px 50px;     
+    border-right: 1px solid #B6B6B6;
+}
+
+.location-area-three{
+    width: 30%;
+    text-align: center;
+    padding: 80px 50px;    
+}
+
+
+
+
+
+
+
+
+
+/* main section ends here */
