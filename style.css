@@ -620,6 +620,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
+    background-color: #FAFAFF;
+    margin-top: 150px;
 }
 
 .footer-sec-one{
@@ -701,6 +703,41 @@ body{
     color: #B6B6B6;
 }
 
+.contact-info{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    border-radius: 40px;
+    box-shadow: 10px 3px 10px 10px rgb(233, 233, 233);
+
+}
+
+.contact-info > i{
+    background-color: var(--primary-color);
+    padding: 20px 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    
+}
 /* footer section ends here */
 
 
