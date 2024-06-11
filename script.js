@@ -1,52 +1,3 @@
-// document.getElementById('see-more-btn').addEventListener('click', function() {
-
-//     const cardContainer = document.getElementById('cardContainer')
-//     for (let i = 0; i < 6; i++){
-//         const item = document.createElement('div');
-//         item.classList.add('item-one');
-
-//         item.innerHTML = `
-        
-//          <div class="item-one-img">
-//                                 <img src="./images/popular-item/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__10__Chicken-Pot-Pie-LEAD-1-f01cc53ba4dc4b50b91de3aa1e2ef62c 1.png" alt="">
-//                             </div>
-        
-//                             <div class="item-bottom-section">
-//                                 <div class="popular-item-left-side">
-//                                     <div class="popular-item-left-side-title">
-//                                         <h3>Chicken Pot Pie</h3>
-//                                         <button>Add to Cart</button>
-//                                     </div>
-        
-//                                 </div>
-        
-//                                 <div class="popular-item-icon-side">
-//                                     <div class="star-icon">
-//                                         <i class="fa fa-star"></i>
-//                                         <p>4.9</p>
-//                                     </div>
-        
-//                                     <div class="price-value">
-//                                         <p>$25.00</p>
-//                                     </div>
-        
-//                                 </div>
-//                             </div>
-        
-        
-//         `
-
-//         cardContainer.appendChild(item);
-//     }
-// });
-
-
-
-
-
-
-
-
 // Sample data for new products
 const newProducts = [
     {
@@ -126,22 +77,15 @@ function handleShowMoreProject() {
 
 
 
+// subcribe button
+
+function subscribe() {
+    alert("Successfully subscribed!");
+}
 
 
 
 
-// function handleShowMoreProject() {
-//     const cardContainer = document.getElementById('card-all-items');
-
-//     for (const item of newProducts) {
-//         const cardDivImage = document.createElement('div');
-//         cardDivImage.classList.add('card-all-items');
-//         cardDivImage.innerHTML = `
-//             <img src="${item.url}" alt="${item.title}">
-//         `;
-//         cardContainer.appendChild(cardDivImage);
-//     }
-// }
 
 
-// Function to create product item elements
+

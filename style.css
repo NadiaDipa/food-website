@@ -514,14 +514,102 @@ body{
 }
 
 
-
-
-
-
-
 /* testimonial section ends here */
 
 
+
+/* newsletter starts here */
+.newsletter{
+    margin-top: 100px;
+    background-color: #000000;
+    width: 100%;
+
+}
+.subscribe-container > input{
+    text-align: center;
+}
+.newsletter-section{
+    display: flex;
+    padding: 50px 0px;
+   
+
+}
+
+#emailInput{
+    margin: 0px 20px;
+}
+
+.newsletter-left-img{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-right-text{
+    width: 40%;
+    color: white;
+    padding-right: 50px;
+   
+}
+
+.newsletter-right-text > h3{
+    font-size: 35px;
+    width: 90%;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+
+.newsletter-right-text > p{
+    font-size: 18px;
+    font-weight: lighter;
+    width: 90%;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 30px;
+    margin-right: 40px;
+    background-color: white;
+}
+
+.email-input {
+    border: none;
+    font-size: 20px;
+    flex: 1;
+    font-weight: lighter;
+   
+}
+
+.subscribe-btn {
+    background-color: #F48E28;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+/* newsletter ends here */
  
 
 
