@@ -80,9 +80,14 @@ function handleShowMoreProject() {
 // subcribe button
 
 function subscribe() {
-    alert("Successfully subscribed!");
-}
+    const email = prompt("Enter your email address:");
 
+    if (!email.trim()) {
+        alert("Please enter an email address.");
+    } else {
+        alert("Successfully subscribed!");
+    }
+}
 
 
 

@@ -8,6 +8,9 @@ body{
     font-weight: 600;
 }
 
+.headline{
+    font-size: 40px;
+}
 
 
 :root{
@@ -143,6 +146,7 @@ body{
 
 .orange-color{
     color: var(--primary-color);
+   
 }
 
 .banner-paragraph{
